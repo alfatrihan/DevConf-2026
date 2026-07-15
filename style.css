@@ -1,0 +1,39 @@
+/* Reset System */
+* {
+    margin: 0 auto;
+}
+
+/* Common Class */
+.bold-button {
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 35px;
+    color: white;
+    background-color: #1D4ED8;
+}
+
+/* Navigation Ber */
+header {
+    max-width: 1200px;
+}
+
+header nav {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #919191;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
