@@ -351,3 +351,44 @@ p {
 #card-pro .card-head-top-p {
     color: #89B8ED;
 }
+
+/* Footer */
+footer {
+    background-color: #0D1B2A;
+    color: #d6d7db;
+}
+
+#footer-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 20px 0;
+}
+
+#footer-card-left img {
+    height: 35px;
+    margin: 0 20px;
+}
+
+#footer-card-left p {
+    font-size: 14px;
+    color: #a6b0bc;
+}
+
+#fcr-img-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+#fcr-img-container img {
+    width: 30px;
+}
+
+#fcr-text-container a {
+    color: #9AA7B5;
+    padding: 0 7px;
+    text-decoration: none;
+    font-size: 14px;
+}
