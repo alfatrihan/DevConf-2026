@@ -17,11 +17,34 @@
     cursor: pointer;
 }
 
+.light-button {
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #1D4ED8;
+    padding: 15px 35px;
+    color: #1D4ED8;
+    background-color: white;
+    cursor: pointer;
+}
+
 .section-title {
 
     margin: 50px auto;
     text-align: center;
     font-size: 40px;
+}
+
+.card-head-top-p {
+    margin-top: 18px;
+    color: #1D4ED8;
+    font-weight: bold;
+}
+
+.card-head-bottom-p {
+    color: #919191;
+    font-weight: 500;
+    margin-bottom: 25px;
 }
 
 /* Navigation Ber */
@@ -70,10 +93,11 @@ header nav ul li a {
 }
 
 #banner-top h1 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 #banner-top p {
+    font-size: 18px;
     margin: 10px 200px;
 }
 
@@ -83,7 +107,7 @@ header nav ul li a {
     grid-template-columns: repeat(2, 1fr);
 }
 
-#sec-2-card div {
+.card-style {
     border: 1px solid #d6d7db;
     border-radius: 15px;
     overflow: hidden;
@@ -95,14 +119,77 @@ p {
     margin: 7px 20px;
 }
 
-#sec-2-card-p1 {
-    margin-top: 18px;
-    color: #1D4ED8;
-    font-weight: bold;
+
+
+/* Secure Your Spot */
+#sec-3 {
+    margin-top: 120px;
 }
 
-#sec-2-card-p2 {
+#sec-3-title {
+    margin: 0 auto;
+}
+
+#sec-3-titletag {
     color: #919191;
-    font-weight: 500;
-    margin-bottom: 25px;
+    text-align: center;
+    font-size: 17px;
+}
+
+#sec-3-card-container {
+    display: flex;
+    margin: 30px 40px;
+    /* padding: 0 20px; */
+    gap: 20px;
+    justify-content: space-around;
+}
+
+#sec-3-card-container .card-style {
+    padding: 30px;
+    width: 300px;
+    margin: auto;
+}
+
+#sec-3-card-container .card-head-top-p {
+    color: #0D1B2A;
+}
+
+#sec-3-card-container .card-style h1 {
+    font-size: 40px;
+    margin-left: 17px;
+}
+
+#sec-3-card-container .card-style p {
+    font-size: 17px;
+}
+
+#sec-3-card-container .card-style button {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+
+#sec-3-card-container ul {
+    padding: 30px 20px 30px 20px;
+}
+
+#sec-3-card-container ul li {
+    margin: 8px 0;
+}
+
+#card-pro {
+    background-color: #0D1B2A;
+    color: white;
+}
+
+#card-pro ul {
+    color: #1D4ED8;
+}
+
+#card-pro ul span {
+    color: #a6b0bc;
+}
+
+#card-pro .card-head-top-p {
+    color: #89B8ED;
 }
